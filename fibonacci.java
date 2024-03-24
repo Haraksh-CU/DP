@@ -18,7 +18,6 @@ class fibonacci {
         for (int i = 0; i < n + 1; i++) {
             dp[i] = -1;
         }
-        int ans = fib(n,dp);
-        System.out.println(ans);
+        System.out.println(fib(n,dp));
     }
 }
